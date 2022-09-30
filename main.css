@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+header, section h2, section h3 {
+    font-family: 'Bungee', cursive;
+}
+
+body , input, textarea{
+    font-family: 'Roboto', cursive;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #182c61;
+    color: #ecf0f1;
+}
+
+header h1,
+section h2,
+section h3{
+    font-weight: normal;
+}
+
+section h3 {
+    margin: 0 0 16px;
+}
+
+header nav li { 
+    display: inline;
+    margin: 0 0 0 16px;
+    font-size: 18   px;
+}
+
+header nav li a { 
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.container #store-front {
+    width: 480px;
+    height: 380px;
+    margin-right: 32px;
+}
+.brands-list li{
+    display: inline;
+}
+
+section {
+    color: #182c61;
+}
+
+.brands-list img {
+    margin-left: 8px;
+    height: 42px;
+    border-radius: 30px;
+}
+
+section .container{
+    align-items:flex-start;
+}
+section {
+    padding: 24px 0;
+}
+
+section h2,
+section p,
+section ul {
+    margin-bottom: 16px;
+}
+
+.social-links img {
+    height: 42px;
+}
+
+.social-links li{
+    display: inline;
+    margin: 0 0 0 8px;
+}
+
+#contact .container{
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin: 0 0 8px;
+    padding: 8px;
+}
+
+textarea {
+    resize: none;
+}
+
+form button {
+    height: 42px;
+    font-family: 'Bungee', cursive;
+    border-style: none;
+    color: #ecf0f1;
+    background-color: #182c61;
+    cursor: pointer;
+}
+
+form button:hover { 
+    background-color: #23439b;
+}
+
+footer {
+    background-color: #182c61;
+    color: #ecf0f1;
+    padding: 16px 0;
+    text-align: center;
+    font-family: 'Roboto', cursive;
+}
